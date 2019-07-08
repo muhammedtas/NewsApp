@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">News 2</string>
+    <string name="newsDetail">Details</string>
+    <string name="comments">Comments</string>
+    <string name="typeComment"> Type your comments</string>
+    <string name="getAllCategoriesUrl">"http://94.138.207.51:8080/NewsApp/service/news/getallnewscategories"</string>
+    <string name="getAllNewsUrl">"http://94.138.207.51:8080/NewsApp/service/news/getall"</string>
+    <string name="getAllNewsByCategoryIdUrl">"http://94.138.207.51:8080/NewsApp/service/news/getbycategoryid"</string>
+    <string name="getAllNewsByIdUrl">"http://94.138.207.51:8080/NewsApp/service/news/getnewsbyid"</string>
+    <string name="getAllCommentsByNewsIdUrl">"http://94.138.207.51:8080/NewsApp/service/news/getcommentsbynewsid"</string>
+    <string name="postCommentsUrl">"http://94.138.207.51:8080/NewsApp/service/news/savecomment"</string>
+
+    <string-array name="categories">
+        <item>All</item>
+        <item>Economics</item>
+        <item>Sports</item>
+        <item>Politics</item>
+    </string-array>
+
+</resources>
